@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 id="title" class="col-sm-9">My Portfolio</h1>
+    <hr>
+    <br>
+    <div class = "container-fluid">
+    <div class="row content">
+
+    <div id= "bio" class="col-sm-8"><p><span id="name">Susana Restrepo </span> (pronounced soo-ZA-nuh res-TRE-poh) is a Colombian computer science student, and programmer from the Greater New York City area. Her coding experience is derived from class projects, hackathons, and interns. You can find a lot of her independent projects at her <a href="https://github.com/susana-">GitHub account.</a></p>
+    <p>Her leadership experience includes: being secretary from the Society of Hispanic Professional Engineers (SHPE), founding <a href="http://duckhacks.com">the first hackathon on the Stevens campus</a>, and public relations chair for the Transfer Student Association.</p>
+    
+    <div id="menu" class="col-sm-8">
+        <span id="name">Contents</span>
+        <ol>
+            <li><a href="#workexperience">Work Experience</a>
+    <ol>
+      <li><a href="#goldman1">Goldman Sachs (Summer 2018)</a></li>
+        <li><a href="#goldman2">Goldman Sachs (Summer 2017)</a></li>
+        <li><a href="#goldman3">Goldman Sachs (Summer 2016)</a></li>
+    </ol>
+  </li>
+            <li><a href="#relevant">Relevant Projects</a>
+    <ol>
+        <li><a href="#clown">ClownSpotter (HackNY Hackathon)</a></li>
+        <li><a href="#wemet">Where We Met (Senior Design)</a></li>
+    </ol></li>
+            <li><a href="#leadership">Leadership Positions</a>
+    <ol>
+        <li><a href="#shpe">The Society of Hispanic Professional Engineers</a></li>
+        <li><a href="#duckhacks">DuckHacks (The Stevens Hackathon Committee)</a></li>
+        <li><a href="#tsa">Transfer Student Association</a></li>
+    </ol>
+  </li>
+</ol>
+    </div>
+    </div>
+        <div id="sidebio" class="col-sm-4 sidenav">
+        <br>
+        <div id="sidename">Susana Restrepo</div>
+        <br>
+            <img src="IMG_5520.jpg" class="img-fluid" id="profile-picture"/>
+        <br>
+        <br>
+        <span id="insidethebio">Occupation</span>
+            Student
+        <br>
+        <span id="insidethebio">School</span>
+            Stevens Institute of Technology
+        <br>
+        <span id="insidethebio">Graduation</span>
+            Dec. 2018
+        <br>
+        <span id="insidethebio">Location</span>
+           New York City Metro Area
+        <br>
+         <span id="insidethebio">Contact</span>
+           srestrep@stevens.edu
+            <br>
+        <span id="insidethebio"><a href="RestrepoSusanaResumeNew.pdf">Resume</a></span>
+        </div>
+    </div>
+    <br>
+        <h4 id="workexperience">Work Experience</h4>
+        <hr>
+        <br>
+        <h5 id="goldman1">Goldman Sachs (Summer 2018)</h5>
+        At Goldman Sachs in summer 2018, Susana:
+            <ul>
+                <li>Developed REST endpoints using <a href="https://www.dropwizard.io/1.3.5/docs/">Dropwizard</a> to support a client-facing portal that displays financial data.</li>
+                <li>Wrote code that gathers data from the database, parses it to make columns more readable, and sends it through JSON objects to the UI.</li>
+                <li>Added Swagger UI capability in order to test GET/POST commands on the endpoints.</li>
+            </ul>
+        <br>
+         <h5 id="goldman2">Goldman Sachs (Summer 2017)</h5>
+        Fomerly, Susana also: 
+        <ul>
+            <li>Wrote loading and unloading scripts to transfer data from a shared database to new private IQ Sybase database.
+            </li>
+            <li>Prepared data in database to be compatible with new strategic reporting technology, Tableau.</li>
+            <li>Added functionality for international trading within internal fund transfer web application using Struts1.</li>
+        </ul>
+        <br> 
+        <h5 id="goldman3">Goldman Sachs (Summer 2016)</h5>
+        During her first internship at Goldman, she:
+        <ul>
+        <li>Was tasked with redefining the client on boarding process to increase efficiency.</li>
+        <li>Redesigned and optimized database schema.</li>
+        <li>Created SQL and DDL code to create databases in Sybase.</li>
+        <li>Developed user interface that provided better communication between employees.</li>
+        </ul>
+        <br>
+        <h4 id="relevant">Relevant Projects</h4>
+        <hr>
+        <br>
+        <h5 >ClownSpotter (HackNY Hackathon)</h5>        
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="imgs/clownspotter/Screen%20Shot%202018-09-24%20at%2011.45.25%20PM.png" class="img-responsive" style="width:100%" alt="scary clown">
+    </div>
+    <div class="col-sm-6"> 
+      <img src="imgs/clownspotter/Screen%20Shot%202018-09-24%20at%2011.45.50%20PM.png" class="img-responsive" style="width:100%" alt="clown sighting form">
+    </div>
+  </div>
+</div><br><br>
+
+
+        Susana created <a href="https://devpost.com/software/clownspotter">ClownSpotter</a>, a web app that tracked clown sightings. She:
+        <ul>
+        <li>Developed a web app that tracked clown sightings per region for HackNY hackathon that won four awards: Best use of MongoDB, best user design, #HackHarrassment, and most topical.</li>
+            <li>Created a MongoDB database to handle clown sighting submissions.</li>
+            <li>Designed the front page of the website using BootStrap.</li>
+            <li>Connected the front end to the database using PHP to handle the sending data to the database.</li>
+            <li>Created the RESTful endpoints using Eve, a Python REST API with MongoDB compatibility.</li>
+            </ul>
+        <br>
+         <h5 id="wemet">Where We Met (Senior Design)</h5>
+        
+        <div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-12">
+      <img src="imgs/wherewemet/wherewemet1.png" class="img-responsive" style="width:100%" alt="where we met map">
+    </div>
+  </div>
+</div><br><br>
+        For her senior design project, Susana worked on a project called Where We Met. She:
+        <ul>
+        <li>Developed a website that tracked the locations and the stories of where couples met for the first time.</li>
+        <li>Used Node.js and MongoDB to search, create, and delete stories from the database, and to display the information on the UI.</li>
+        <li>Collaborated with her client on the design of the web page.</li>
+        </ul>
+        <br> 
+        <h4 id="leadership">Leadership Positions</h4>
+        <hr>
+        During her tenure at Stevens, Susana was very active within the student body. She participated in many organizations, including the Society of Hispanic Professional Engineers, DuckHacks, and the Transfer Student Association.
+        <br>
+        <br>
+        <h5 id="shpe">The Society of Hispanic Professional Engineers</h5>
+        <br>
+        <div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-6">
+      <img src="imgs/shpe/shpegeneralmeetinh.jpg" class="img-responsive" style="width:100%" alt="shpe meeting">
+    </div>
+    <div class="col-sm-6"> 
+      <img src="imgs/shpe/shpretreat.png" class="img-responsive" style="width:100%" alt="clown sighting form">
+    </div>
+  </div>
+</div><br><br>
+        
+        Susana was secretary of SHPE for two years. She:
+        <ul>
+            <li>Was in charge of interacting with our general body through meetings and sending out weekly newsletters with volunteering, employment, and scholarship opportunities using MailChimp.</li>
+            <li>Volunteered at minority-majority schools to expose them to computer science by doing presentations on campus.</li>
+        <li>Gave presentations in English and in Spanish to parents on financial aid and getting access to resources to get their child through college.</li>
+        </ul>
+        <br>
+         <h5 id="duckhacks">DuckHacks (The Stevens Hackathon Committee)</h5>
+        <br>
+        <div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="imgs/duckhacks/IMG_0287.png" class="img-responsive" style="width:100%" alt="hackers paying attention">
+    </div>
+    <div class="col-sm-4"> 
+      <img src="imgs/duckhacks/IMG_0313.png" class="img-responsive" style="width:100%" alt="hackers being goofy">
+        </div>
+    <div class="col-sm-4"> 
+      <img src="imgs/duckhacks/IMG_0450.png" class="img-responsive" style="width:100%" alt="duckhacks and shpe">
+        </div>
+        </div>
+        </div><br><br>
+        
+        Because of Susana's love for all things hackathon, she brought back her passion to the Stevens body by founding one on campus. She:
+        <ul>
+            <li>Met up and collaborated with school administration, several student-run organizations, caterers, and sponsors.</li>
+            <li>Advertised the event through social media, word of mouth, and announcement in classes.</li>
+            <li>Managed the event day-of, including coordinating with sponsors (Google and JP Morgan), going on food runs, and staying at the event for the full duration of the event (24 hours+).</li>
+</ul>
+        <br> 
+        <h5 id="tsa">Transfer Student Association</h5>
+        During her last full year at university, Susana worked as the public relations chair for the Stevens Transfer Student Association. There, she:
+        <ul>
+            <li>Created flyers for events using Gimp, Photoshop, and Canva.</li>
+            <li>Interacted with the general body using Facebook, Instagram, and GroupMe.</li>
+            <li>Acted as a mentor for new incoming transfer students.</li>
+        </ul>
+        <br>
+    </div>
+    <footer>
+        <hr>
+        <br>
+  <p>Website by: Susana Restrepo</p>
+  <p>Contact information: <a href="mailto:srestrep@stevens.edu">
+  srestrep@stevens.edu</a>.</p>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

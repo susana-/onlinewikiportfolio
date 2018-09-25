@@ -1,0 +1,44 @@
+#name {
+    font-weight: bold;
+}
+#sidename {
+    font-weight: bold;
+    text-align: center;
+}
+#profile-picture {
+    width: inherit;
+}
+#sidebio {
+    background-color:#F0F0F0;
+    border-color: darkgray;
+    border-width: thin;
+    border-style: solid;
+
+}
+#insidethebio{
+    font-weight: bold;
+    text-align: center;
+}
+
+#biotext{
+    position:static;
+}
+
+#menu{
+    background-color:#F0F0F0;
+    border-color: darkgray;
+    border-width: thin;
+    border-style: solid;
+}
+#clownimages {
+    width:inherit;
+    height:inherit;
+}
+
+footer {
+    text-align: center;
+    border-top: solid;
+    border-top-color: darkgray;
+    border-width: thin;
+    
+}
